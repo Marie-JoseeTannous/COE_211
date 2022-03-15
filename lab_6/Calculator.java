@@ -50,7 +50,7 @@ public class Calculator {
         num1=a;
 	num2=b;
 	num=num1+num2;
-	return num1 + "+" + num2 +"="+ num;
+	return num1 + "+" + num2 + "=" + num;
     }
 
     public String subtract(int a, int b) {
@@ -72,8 +72,9 @@ public class Calculator {
 	num2=b;
 	num=num1/num2;
 	return num1 + "/" + num2 + "=" + num;
+    }
 
     public String toString(){
-	return num1 + operator + num2 + "=" + num;
+	return num1+ " " + operator+ " " + num2 +" " + "=" + " "+ num;
     }
 }

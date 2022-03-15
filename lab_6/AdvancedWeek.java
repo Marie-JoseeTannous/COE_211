@@ -1,7 +1,7 @@
 public class AdvancedWeek {
     // Initializing variables
     private String day_1 = "Monday";
-    private int index = 1
+    private int index = 1;
 
     private String day_2 = "Tuesday";
    
@@ -22,7 +22,7 @@ public class AdvancedWeek {
     public void printDays() {
 
     System.out.println( "The advanced day of the week are: "+
-    "\n"+ index + ":"+ day_1 + ",\n"+ 
+    "\n"+ index + ": " + day_1 + ",\n"+ 
     (index + 1) + ": " + day_2 + ",\n" +
     (index + 2) + ": " + day_3 + ",\n" +
     (index + 3) + ": " + day_4 + ",\n" +
